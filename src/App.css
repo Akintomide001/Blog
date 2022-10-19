@@ -1,0 +1,360 @@
+.App {
+  text-align: center;
+}
+
+/*nav menu start*/
+.nav-bar{
+  width: 100%;
+  padding: 5px 4%;
+  background: white;
+ /* min-height: 100vh;*/
+  z-index: 99;
+  position: fixed;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  border-bottom: 1px solid #eaecee;
+  margin-bottom: 250px;
+  box-shadow: 3px 13px 40px -1px rgba(125, 164, 214, .2);
+}
+.logo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logosvg{
+  width: 170px;
+}
+.nav-menu {
+  display: flex;
+  padding-right: 95px;
+}
+ul{
+  display: flex;
+  margin-top: 5px;
+  list-style-type: none;
+}
+ul li{
+  padding: 15px 15px;
+}
+#btn1{
+  border: none;
+  background-color: darkgoldenrod;
+  color: black;
+  font-weight: bolder;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin-top: 6px;
+  width: 110px;
+  height: 40px;
+  border: #000;
+  margin-right: 20px;
+}
+#btn2{
+  border: none;
+  background-color: black;
+  color: darkgoldenrod;
+  font-weight: bolder;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin-top: 6px;
+  width: 110px;
+  height: 40px;
+
+}
+ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+ul li a:hover{
+  color: darkgoldenrod;
+}
+/*nav menu ends*/
+.Blog {
+  line-height: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  padding-top: 180px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  color: darkgoldenrod;
+  font-size: 45px;
+}
+
+#content {
+  color: #fff;
+  height: 5px;
+  text-align: center;
+
+}
+
+.box {
+  width: 350px;
+  height: 450px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 90px;
+  padding-top: 40px;
+  border-radius: 20px;
+  box-shadow: 3px 13px 40px -1px rgba(125, 164, 214, .2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 18.5px;
+  text-align: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h2 {
+  font-size: 10.66px;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+.button {
+  background-color: #000;
+  color: darkgoldenrod;
+  padding: 10px;
+  border: #000;
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  padding-left: 12px;
+  margin-right: 200px;
+  font-weight: 900;
+}
+.images{
+  width: 350px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: -40px;
+}
+
+/*section start*/
+.section{
+  background-color: #8b8d90;
+  box-sizing: border-box;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 200px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+.boxes{
+ display: inline-block;
+ width: 400px;
+ height: 20px;
+ text-align: left;
+ padding-right: 650px;
+ margin: 30px;
+ padding-bottom: 40px;
+}
+#headline{
+  font-size: 35px;
+  margin-bottom: 5%;
+  color: black;
+}
+#name{
+  color: #fff;
+}
+#page{
+  color: #fff;
+}
+#buttonx{
+  background-color: #000;
+  color: darkgoldenrod;
+  padding: 10px;
+  border: #000;
+  border-radius: 100px;
+  width: 250px;
+  height: 70px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 50px;
+  
+}
+#image{
+  padding-left: 489px;
+  width: 600px;
+  height: 290px;
+  margin-top: -600px;
+  margin-bottom: 100px;
+}
+/*end of section*/
+.box3{
+  width: 375px;
+  height: 420px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 13px 40px -1px rgba(125, 164, 214, .2);
+  display: inline-block;
+  margin-top: -50px;
+  /*padding-top: 80px;*/
+}
+#headline2{
+  padding-left: 15px;
+}
+#name2{
+  padding-left: 15px;
+}
+#page2{
+  padding-left: 15px;
+}
+#copy5{
+  width: 375px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: -40px;
+}
+/*subcribe form*/
+.subscribe-form{
+  display: block;
+  box-shadow: 3px 13px 40px -1px rgba(125, 164, 214, .2);
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 40px;
+  padding-bottom: 60px;
+  
+}
+.form{
+  width: 290px;
+  margin-left: 45px;
+  padding-top: 30px;
+}
+.email{
+  width: 400px;
+  /*background-color: brown;*/
+  align-items: center;
+  display: flex;
+  padding-right: 40px;
+  margin-left: 450px;
+  margin-top: -65px;
+}
+#subscribe{
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+input{
+  height: 40px;
+  width: 200px;
+  border-radius: 30px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border: 1px solid black;
+}
+#submit{
+ display: grid;
+  height: 44px;
+  width: 100px;
+  border-radius: 30px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: black;
+  color: darkgoldenrod;
+  border: #000;
+  margin-left: 270px;
+  margin-top:-44px;
+}
+/*subcribe form ends*/
+.background{
+  background-image:url("background.png");
+  display: inline-block;
+ /* margin: 15em 0;*/
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 300px;
+}
+#back1{
+  display: inline-block;
+  width: 350px;
+  height: 100px;
+  margin-right: 1000px;
+}
+#back2{
+  display: grid;
+  width: 500px;
+  height: 30%;
+ margin-top: -430px;
+  margin-left: 650px;
+}
+.fresh{
+  width: 500px;
+}
+#tee{
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+.button0{
+  background-color: #000;
+  color: darkgoldenrod;
+  padding: 10px;
+  border: #000;
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  padding-left: 12px;
+  margin-right: 200px;
+  font-weight: 900;
+
+}
+#p1{
+  font-size: 13px;
+  font-weight: 600;
+}
+/*FOOTER START*/
+.container{
+ text-align: left;
+  width: 100%;
+  padding: 6% 4%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content:center;
+  margin: auto;
+  background-color: #e4e6e8de;
+  margin-top: -50px;
+  height: 170px;
+}
+.div1{
+  width: 200px;
+}
+.footer-logo{
+  width: 170px;
+}
+.div2{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
+  color: #000;
+}
+#div4{
+  margin-top: 60px;
+}
+.footer-footer{
+  text-align: left;
+  justify-content: center;
+  padding: 1% 4%;
+  color: darkgoldenrod;
+  background-color: #000;
+}
+#float{
+  float: right;
+}
+/*footer end*/
